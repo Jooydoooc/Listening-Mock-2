@@ -1515,10 +1515,11 @@
                 </button>
                 
                 <!-- Enhanced Audio Player -->
-                <audio id="audioPlayer" preload="auto" controls playsinline webkit-playsinline crossorigin="anonymous" style="width: 400px; height: 30px; background: rgba(255,255,255,0.9); border-radius: 15px; outline: none;">
+                <audio id="audioPlayer" preload="metadata" controls playsinline webkit-playsinline style="width: 400px; height: 30px; background: rgba(255,255,255,0.9); border-radius: 15px; outline: none;">
                     <source src="https://pub-a3ed3eec4ae344b4917067de0a9376f1.r2.dev/Authentic%20Listening%20Mock%203%20%40.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
+                <span id="audioErrorStatus" style="font-size: 10px; color: #bfdbfe; margin-left: 6px; display:none;">Audio unavailable. Refresh or reopen the page.</span>
                 
                 <!-- +10 seconds button -->
                 <button onclick="skipForward()" class="header-btn" style="background: none; border: none; color: white; cursor: pointer; padding: 4px; border-radius: 50%; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='none'" title="+10 seconds">
@@ -1543,13 +1544,6 @@
                 More Listening
             </a>
             
-            <!-- Premium VIP Button -->
-            <button id="premium-btn" class="header-btn" style="background: linear-gradient(135deg, #f59e0b, #ec4899, #ef4444) !important; border: none !important; display: flex; align-items: center; gap: 6px;">
-                <svg style="width: 12px; height: 12px; fill: currentColor;" viewBox="0 0 20 20">
-                    <path d="M10 2l2.39 4.84L18 7.27l-3.91 3.81L14.78 18 10 15.27 5.22 18l.69-6.92L2 7.27l5.61-.43L10 2z"/>
-                </svg>
-                VIP Pack
-            </button>
         </div>
     </div>
 
@@ -3238,6 +3232,14 @@
         document.getElementById('audioPlayer').addEventListener('play', startSubtitleLoop);
         document.getElementById('audioPlayer').addEventListener('pause', stopSubtitleLoop);
         document.getElementById('audioPlayer').addEventListener('ended', stopSubtitleLoop);
+        document.getElementById('audioPlayer').addEventListener('error', () => {
+            const status = document.getElementById('audioErrorStatus');
+            if (status) status.style.display = 'inline';
+        });
+        document.getElementById('audioPlayer').addEventListener('loadeddata', () => {
+            const status = document.getElementById('audioErrorStatus');
+            if (status) status.style.display = 'none';
+        });
         
         function playAudio() {
             const audio = document.getElementById('audioPlayer');
