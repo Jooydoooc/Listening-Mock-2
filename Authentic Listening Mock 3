@@ -1488,7 +1488,7 @@
             <div class="test-info">
                 Test taker ID<br>
                 <div style="font-size: 10px; color: white; margin-top: 2px;">
-                    All rights reserved by Shohrukhposts©
+                    All rights reserved by IELTS©
                 </div>
                 <div class="audio-controls" id="audioStatus">
                     🔊 Audio is paused
@@ -1508,7 +1508,7 @@
                 
                 <!-- Enhanced Audio Player -->
                 <audio id="audioPlayer" preload="auto" controls playsinline webkit-playsinline crossorigin="anonymous" style="width: 400px; height: 30px; background: rgba(255,255,255,0.9); border-radius: 15px; outline: none;">
-                    <source src="https://pub-a3ed3eec4ae344b4917067de0a9376f1.r2.dev/Authentic%20Listening%20Mock%203%20%40shohrukhposts.mp3" type="audio/mpeg">
+                    <source src="https://pub-a3ed3eec4ae344b4917067de0a9376f1.r2.dev/Authentic%20Listening%20Mock%203%20%40.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
                 
@@ -1527,7 +1527,7 @@
             <button id="headerCheckBtn" onclick="checkAnswers()" class="header-btn">CHECK ANSWERS</button>
             
             <!-- Telegram More Listening Button -->
-            <a href="https://t.me/shohrukhposts" target="_blank" class="header-btn" style="text-decoration: none; display: flex; align-items: center; gap: 6px;">
+            <a href="https://t.me/@IELTS_AGE" target="_blank" class="header-btn" style="text-decoration: none; display: flex; align-items: center; gap: 6px;">
                 <svg style="width: 12px; height: 12px; fill: currentColor;" viewBox="0 0 24 24">
                     <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
                 </svg>
@@ -1626,7 +1626,7 @@
                 </svg>
                 
                 <!-- Logo image with electrical hover effect -->
-                <a href="https://t.me/shohrukhposts" target="_blank" rel="noopener noreferrer" class="logo-link">
+                <a href="https://t.me/@IELTS_AGE" target="_blank" rel="noopener noreferrer" class="logo-link">
                     <img src="https://pub-a3ed3eec4ae344b4917067de0a9376f1.r2.dev/20231027_164620_0000-photoaidcom-cropped.png" alt="CDI Logo" class="electric-logo" style="width: 85px; height: 85px; object-fit: contain; border-radius: 10px;">
                 </a>
                 
@@ -1686,7 +1686,7 @@
             </button>
             
             <!-- Footer Note -->
-            <p style="font-size: 9px; color: #666; margin-top: 15px;">© CDI Platform by @shohrukhposts</p>
+            <p style="font-size: 9px; color: #666; margin-top: 15px;">© CDI Platform by @IELTS</p>
         </div>
     </div>
 
@@ -1724,7 +1724,7 @@
                 </ul>
                 <div style="margin: 4px 0;">
                     <span style="font-weight: 600; font-size: 11px;">🆓 FREE DEMO TESTS</span>
-                    <a href="https://t.me/shohrukhposts/1091" target="_blank" style="display: inline-block; margin-left: 6px; padding: 4px 10px; background: #2563eb; color: white; font-weight: 600; border-radius: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-decoration: none; font-size: 10px; vertical-align: middle;" onmouseover="this.style.background='#1d4ed8'" onmouseout="this.style.background='#2563eb'">Try Demo</a>
+                    <a href="https://t.me/@IELTS_AGE/1091" target="_blank" style="display: inline-block; margin-left: 6px; padding: 4px 10px; background: #2563eb; color: white; font-weight: 600; border-radius: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-decoration: none; font-size: 10px; vertical-align: middle;" onmouseover="this.style.background='#1d4ed8'" onmouseout="this.style.background='#2563eb'">Try Demo</a>
                 </div>
                 <div style="margin-top: 6px;">
                     <span style="font-weight: 600; font-size: 11px;">🛫 Price:</span><br>
@@ -1736,7 +1736,7 @@
                     <span style="font-weight: 600; font-size: 11px;">🔐 One-time access 🔑</span><br>
                     <span style="color: #6b7280; font-size: 10px;">ℹ️ This pack will not be publicly shared or reposted.</span>
                 </div>
-                <a href="https://t.me/Shohrukh_05?text=Hi%2C%20I%20wanted%20to%20purchase%20access%20to%20the%20VIP%20channel" target="_blank" style="display: block; width: 90%; margin-left: auto; margin-right: auto; text-align: center; background: linear-gradient(to right, #fbbf24, #ec4899, #ef4444); color: white; font-weight: bold; padding: 10px 16px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin-top: 12px; margin-bottom: 8px; font-size: 14px; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">📩 Tap VIP ACCESS</a>
+                <a href="@IELTS_AGE" target="_blank" style="display: block; width: 90%; margin-left: auto; margin-right: auto; text-align: center; background: linear-gradient(to right, #fbbf24, #ec4899, #ef4444); color: white; font-weight: bold; padding: 10px 16px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); margin-top: 12px; margin-bottom: 8px; font-size: 14px; text-decoration: none; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">📩 Tap VIP ACCESS</a>
             </div>
         </div>
     </div>
@@ -4338,7 +4338,7 @@
             screenshotLink.click();
             
             // Open Telegram with the message
-            const telegramUrl = `https://t.me/shohrukhpostsarea?text=${encodeURIComponent(message)}`;
+            const telegramUrl = `https://t.me/IELTS_AGEarea?text=${encodeURIComponent(message)}`;
             
             // Show success message to user
             alert(canShowBand
@@ -4433,11 +4433,11 @@
                 </div>
                 
                 <div style="text-align: center; margin-bottom: 20px;">
-                    <button onclick="window.open('https://t.me/shohrukhposts', '_blank')" 
+                    <button onclick="window.open('https://t.me/IELTS_AGE', '_blank')" 
                             style="background: rgba(255,255,255,0.2); color: white; border: 2px solid rgba(255,255,255,0.3); padding: 12px 24px; border-radius: 30px; cursor: pointer; font-weight: 600; font-size: 14px; backdrop-filter: blur(10px); transition: all 0.3s ease; margin-bottom: 12px; width: 100%;"
                             onmouseover="this.style.background='rgba(255,255,255,0.3)'" 
                             onmouseout="this.style.background='rgba(255,255,255,0.2)'">
-                        📱 Follow @shohrukhposts
+                        📱 Follow @IELTS_AGE
                     </button>
                 </div>
                 
